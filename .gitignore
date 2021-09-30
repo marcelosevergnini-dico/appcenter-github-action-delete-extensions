@@ -39,7 +39,7 @@ build/Release
 
 # Dependency directories
 jspm_packages/
-#node_modules/
+node_modules/
 # IntelliJ
 *.iml
 *.iws
