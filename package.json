@@ -1,6 +1,6 @@
 {
   "name": "appcenter-github-action-delete-extensions",
-  "version": "v1",
+  "version": "v1.1",
   "description": "Delete distributions extension from the Official AppCenter Github Actions",
   "main": "index.js",
   "scripts": {
@@ -21,5 +21,8 @@
   "dependencies": {
     "@actions/core": "^1.6.0",
     "@actions/github": "^5.0.0"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.22.3"
   }
 }
