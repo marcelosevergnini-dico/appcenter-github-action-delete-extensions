@@ -9,6 +9,15 @@ inputs:
     description: 'to which release number to delete'
     required: true
     default: '0'
+  owner:
+    description: "App name e.g. Sample-App"
+    required: true
+  appName:
+    description: "App name followed by username e.g. marcelosevergnini-dico"
+    required: true
+  token:
+    description: "Upload token - you can get one from appcenter.ms/settings"
+    required: true
 outputs:
   status:
     description: "Distribution range was successfully removed from AppCenter"
