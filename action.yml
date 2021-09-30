@@ -1,5 +1,6 @@
 name: 'AppCenter Range Delete Extension'
 description: 'Missing delete distributions from the Official AppCenter Github Actions'
+author: 'Marcelo Severgnini <marcelo.severgnini@diconium.com>'
 inputs:
   from:
     description: 'From which release number to delete'
