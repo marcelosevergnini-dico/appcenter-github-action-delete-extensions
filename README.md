@@ -1,5 +1,5 @@
 # diconium Cariad Actions
-## AppCenter Extensions - Range Delete Action
+## AppCenter Extensions - Delete Distributions Action
 ### Delete distributions extension from the Official AppCenter Github Actions
 
 This action iterates an input range for App Center distributions and deletes it

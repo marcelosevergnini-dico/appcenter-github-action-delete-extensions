@@ -1,9 +1,10 @@
 {
   "name": "appcenter-github-action-delete-extensions",
   "version": "v1",
-  "description": "",
+  "description": "Delete distributions extension from the Official AppCenter Github Actions",
   "main": "index.js",
   "scripts": {
+    "build": "ncc build index.js --minify",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
