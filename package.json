@@ -1,0 +1,24 @@
+{
+  "name": "appcenter-github-actions-extensions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelosevergnini-dico/appcenter-github-actions-extensions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcelosevergnini-dico/appcenter-github-actions-extensions/issues"
+  },
+  "homepage": "https://github.com/marcelosevergnini-dico/appcenter-github-actions-extensions#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
+  }
+}

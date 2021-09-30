@@ -1,0 +1,17 @@
+name: 'AppCenter Delete Extension'
+description: 'Missing delete distributions from the Official AppCenter Github Actions'
+inputs:
+  from:
+    description: 'From which release number to delete'
+    required: true
+    default: '0'
+  to:
+    description: 'to which release number to delete'
+    required: true
+    default: '0'
+outputs:
+  time: # id of output
+    description: 'The time we greeted you'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
