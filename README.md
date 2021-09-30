@@ -14,7 +14,10 @@ This action iterates an input range for App Center distributions and deletes it
 
 **Required** to which release number to delete. Default `"0"`.
 
-uses: actions/appcenter-deletion-action@v1.1
-with:
-    from: '1'
-    to: '50'
+```
+steps:
+    uses: actions/appcenter-github-actions-extensions@v1.0
+    with:
+        from: '1'
+        to: '50'
+```

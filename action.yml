@@ -1,4 +1,4 @@
-name: 'AppCenter Delete Extension'
+name: 'AppCenter Range Delete Extension'
 description: 'Missing delete distributions from the Official AppCenter Github Actions'
 inputs:
   from:
@@ -10,8 +10,8 @@ inputs:
     required: true
     default: '0'
 outputs:
-  time: # id of output
-    description: 'The time we greeted you'
+  status:
+    description: "Distribution range was successfully removed from AppCenter"
 runs:
   using: 'node12'
   main: 'dist/index.js'
