@@ -1,6 +1,6 @@
 {
-  "name": "appcenter-github-actions-extensions",
-  "version": "1.0.0",
+  "name": "appcenter-github-action-delete-extensions",
+  "version": "v1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marcelosevergnini-dico/appcenter-github-actions-extensions.git"
+    "url": "git+https://github.com/marcelosevergnini-dico/appcenter-github-action-delete-extensions.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/marcelosevergnini-dico/appcenter-github-actions-extensions/issues"
+    "url": "https://github.com/marcelosevergnini-dico/appcenter-github-action-delete-extensions/issues"
   },
-  "homepage": "https://github.com/marcelosevergnini-dico/appcenter-github-actions-extensions#readme",
+  "homepage": "https://github.com/marcelosevergnini-dico/appcenter-github-action-delete-extensions#readme",
   "dependencies": {
     "@actions/core": "^1.6.0",
     "@actions/github": "^5.0.0"
