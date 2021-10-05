@@ -1,23 +1,16 @@
-name: 'AppCenter Range Delete Extension'
-description: 'Missing delete distributions from the Official AppCenter Github Actions'
+name: 'AppCenter Delete Distributions Github Action'
+description: 'Iterates and delete distributions from AppCenter'
 inputs:
-  from:
-    description: 'From which release number to delete'
+  distributions:
+    description: 'Comma-separated array of distribution IDs to delete, e.g. [24,25,45]'
     required: true
-    default: '0'
-  to:
-    description: 'to which release number to delete'
-    required: true
-    default: '0'
+    default: "[]"
   appName:
     description: "App name followed by username e.g. marcelosevergnini-dico/Sample-App"
     required: true
   token:
     description: "Upload token - you can get one from appcenter.ms/settings"
     required: true
-outputs:
-  status:
-    description: "Distribution range was successfully removed from AppCenter"
 runs:
   using: 'node12'
   main: 'dist/index.js'

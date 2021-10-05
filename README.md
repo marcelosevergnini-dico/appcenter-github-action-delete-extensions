@@ -1,18 +1,14 @@
 # diconium Cariad Actions
-## AppCenter Extensions - Delete Distributions Action
-### Delete distributions extension from the Official AppCenter Github Actions
+## AppCenter Extensions - Delete Distributions
+### Delete AppCenter distributions Action
 
-This action iterates an input range for App Center distributions and deletes it
+This action iterates an list of AppCenter distributions and deletes it
 
 ## Inputs
 
-## `from`
+## `distributions`
 
-**Required** From which release number to delete. Default `"0"`.
-
-## `to`
-
-**Required** to which release number to delete. Default `"0"`.
+**Required** Comma-separated array of distribution IDs to delete, e.g. [24,25,45].
 
 ## `appName`
 
@@ -24,8 +20,7 @@ This action iterates an input range for App Center distributions and deletes it
 ```
 uses: actions/appcenter-github-action-delete-extensions@v1.0
 with:
-    from: '1'
-    to: '50'
+    distributions: '[24,25,45]'
     appName: 'marcelosevergnini-dico/my_app_test'
     token: '******'
 ```
